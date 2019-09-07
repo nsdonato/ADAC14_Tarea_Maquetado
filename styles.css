@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #f1f1f1;
+}
+
+.main_header {
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 50px;
+}
+
+.main_header h1{
+    padding-bottom: 20px;
+    font-size: 36px;
+}
+
+.main_header span {
+    color: #ffffff;
+    padding: 1px 10px;
+}
+
+.tag {
+    background-color: #000000;
+}
+
+section {
+    width: 68%;
+}
+
+.card_header, .card_main, .card_row {
+    padding: 10px 30px 10px 15px;
+}
+
+.card_header h1 {
+    padding-bottom: 20px;
+}
+
+span.card_date {
+    opacity: 0.60;
+}
+
+.card {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    margin: 2%;
+}
+
+img {
+    width: 100%;
+}
+
+.card_main p {
+    font-size: 15px;
+}
+
+.card_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 20px;
+}
+
+.card_row_btn {
+    padding: 15px 25px;
+    background-color: inherit;
+    border: none;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.card_row_btn:hover{
+    background-color: #ccc;
+}
+
+.card_row_comments {
+    text-align: left;
+}
+
+.card_row_comments_count {
+    padding: 1px 8px;
+    color: #ffffff;
+}
+
+aside {
+    width: 29%;
+}
