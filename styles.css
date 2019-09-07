@@ -140,6 +140,10 @@ aside {
   border-bottom: 1px solid #ccc;
 }
 
+.card_popular_posts_list li:hover {
+    background-color: #ccc;
+}
+
 .card_popular_posts_container {
   display: flex;
   padding: 15px;
