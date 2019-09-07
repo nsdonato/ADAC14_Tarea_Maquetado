@@ -114,7 +114,7 @@ aside {
     padding-bottom: 20px;
 }
 
-.card_popular_posts_header{
+.card_popular_posts_header, .card_tags_header{
     background-color: #f1f1f1;
     padding: 20px;
 }
