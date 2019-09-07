@@ -142,7 +142,7 @@ aside {
 
 .card_popular_posts_container {
   display: flex;
-  padding: 20px;
+  padding: 15px;
 }
 
 .card_popular_posts_img_container {
@@ -200,4 +200,16 @@ footer {
 .footer_btn:hover {
     background-color: #ccc;
     color: #000000;
+}
+
+@media (max-width: 600px) { 
+    .main_container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    section, aside {
+        width: 90%;
+    }
 }
