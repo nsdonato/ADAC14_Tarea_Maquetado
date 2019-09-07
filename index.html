@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Clase 14 - Tarea Maquetado</title>
   </head>
 
   <body>
     <main>
       <header class="main_header">
         <h1>MY BLOG</h1>
-        <p>Welcome to the blog of <span class="tag">unknown</span></p>
+        <p>Welcome to the blog of <span class="tag_black">unknown</span></p>
       </header>
 
       <div class="main_container">
@@ -41,7 +41,7 @@
                 <button class="card_row_btn"><b>READ MORE »</b></button>
                 <span class="card_row_comments"
                   ><b>Comments</b>
-                  <span class="card_row_comments_count tag">0</span></span
+                  <span class="card_row_comments_count tag_black">0</span></span
                 >
               </div>
             </div>
@@ -74,7 +74,8 @@
                 <button class="card_row_btn"><b>READ MORE »</b></button>
                 <span class="card_row_comments"
                   ><b>Comments</b>
-                  <span class="card_row_comments_count tag tag_rounded"
+                  <span
+                    class="card_row_comments_count tag_black tag tag_rounded"
                     >2</span
                   ></span
                 >
@@ -84,7 +85,7 @@
         </section>
 
         <aside>
-          <div class="card_about_me">
+          <div class="card  card_about_me">
             <img
               src="./img/avatar_g.jpg"
               alt="Imágen de la cara de una mujer de perfil"
@@ -99,11 +100,11 @@
             </div>
           </div>
 
-          <div class="card_popular_posts">
+          <div class="card card_popular_posts">
             <header class="card_popular_posts_header">
               <span>Popular Posts</span>
             </header>
-            <ul class="card_popular_posts_list">
+            <ul class="card card_popular_posts_list">
               <li>
                 <div class="card_popular_posts_container">
                   <div class="card_popular_posts_img_container">
@@ -166,13 +167,37 @@
             </ul>
           </div>
 
-          <div class="card_tags">
+          <div class="card card_tags">
             <header class="card_tags_header">
-              <span>Popular Posts</span>
+              <span>Tags</span>
             </header>
+            <div class="card_tags_container">
+              <span class="tag_black">Travel</span>
+              <span>New York</span>
+              <span>London</span>
+              <span>IKEA</span>
+              <span>NORWAY</span>
+              <span>DIY</span>
+              <span>Ideas</span>
+              <span>Baby</span>
+              <span>Family</span>
+              <span>News</span>
+              <span>Clothing</span>
+              <span>Shopping</span>
+              <span>Sports</span>
+              <span>Games</span>
+            </div>
           </div>
         </aside>
       </div>
     </main>
+
+    <footer>
+      <div>
+        <button class="footer_btn_prev footer_btn" disabled>Previous</button>
+        <button class="footer_btn_next footer_btn">Next »</button>
+      </div>
+      <span>Powered by <a class="footer_web" href="#">w3.css</a></span>
+    </footer>
   </body>
 </html>
