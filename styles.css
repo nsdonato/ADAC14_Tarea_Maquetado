@@ -13,7 +13,7 @@ body {
 .main_header {
     text-align: center;
     padding-top: 44px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .main_header h1{
@@ -30,32 +30,43 @@ body {
     background-color: #000000;
 }
 
+.tag_rounded {
+    border-radius: 15px;
+}
+
+.main_container {
+    display: flex;
+}
+
 section {
-    width: 68%;
+    width: 66%;
+    margin: 0% 1% 0% 1%;
 }
 
-.card_header, .card_main, .card_row {
+.card, .card_about_me, .card_popular_posts {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    background-color: #ffffff;
+    margin-bottom: 3%;
+}
+
+.card_container, .card_aside_container {
     padding: 10px 30px 10px 15px;
-}
-
-.card_header h1 {
-    padding-bottom: 20px;
 }
 
 span.card_date {
     opacity: 0.60;
 }
 
-.card {
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
-    margin: 2%;
+.card_header, .card_header h1 {
+    padding-bottom: 20px;
 }
 
 img {
     width: 100%;
 }
 
-.card_main p {
+.card_main {
+    padding-bottom: 25px;
     font-size: 15px;
 }
 
@@ -64,6 +75,7 @@ img {
     justify-content: space-between;
     align-items: baseline;
     padding-bottom: 20px;
+    font-size: 15px;
 }
 
 .card_row_btn {
@@ -72,7 +84,7 @@ img {
     border: none;
     border: 1px solid #ccc;
     font-family: inherit;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .card_row_btn:hover{
@@ -84,10 +96,56 @@ img {
 }
 
 .card_row_comments_count {
-    padding: 1px 8px;
+    padding: 3px 8px;
     color: #ffffff;
 }
 
 aside {
-    width: 29%;
+    width: 32%;
+    margin: 0% 1% 0% 1%;
+}
+
+.card_about_me {
+    margin-bottom: 8%;
+}
+
+.card_aside_container h3, 
+.card_aside_container p {
+    padding-bottom: 20px;
+}
+
+.card_popular_posts_header{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.card_popular_posts_header span{
+    font-size: 18x;
+}
+
+.card_popular_posts_list{
+    list-style: none;
+    background-color: white;
+}
+
+.card_popular_posts_list li {
+    border-bottom: 1px solid #ccc;
+}
+
+.card_popular_posts_container {
+    display: flex;
+    padding: 20px;
+}
+
+.card_popular_posts_img_container {
+    width: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+.card_popular_posts_text{
+    align-self: center;
+    padding-left: 20px;
 }
