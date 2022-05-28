@@ -1,10 +1,12 @@
-import Button from "./Button";
+import Button from "../Button/Button";
+import "./CardPost.css"
+
 const CardPost = (props) => {
-    const { title, description, datePost, information } = props;
+    const { title, description, information } = props;
 
     return (
-        <div className="card">
-            <img src="/public/img/woods.jpg" alt="Imágen de un bosque" />
+        <article className="card">
+            <img src="/img/woods.jpg" alt="Imágen de un bosque" />
             <div className="card_container">
                 <header className="card_header">
                     <h1>{title}</h1>
@@ -15,12 +17,7 @@ const CardPost = (props) => {
                 </header>
                 <div className="card_main">
                     <p>
-                        Mauris neque quam, fermentum ut nisl vitae, convallis maximus
-                        nisl. Sed mattis nunc id lorem euismod placerat. Vivamus
-                        porttitor magna enim, ac accumsan tortor cursus at. Phasellus
-                        sed ultricies mi non congue ullam corper. Praesent tincidunt
-                        sed tellus ut rutrum. Sed vitae justo condimentum, porta
-                        lectus vitae, ultricies congue gravida diam non fringilla.
+                        {information}
                     </p>
                 </div>
                 <div className="card_row">
@@ -29,7 +26,7 @@ const CardPost = (props) => {
                         <span className="card_row_comments_count tag_black">0</span></span>
                 </div>
             </div>
-        </div>
+        </article>
     )
 }
 

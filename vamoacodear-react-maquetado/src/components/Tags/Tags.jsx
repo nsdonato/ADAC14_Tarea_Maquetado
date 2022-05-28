@@ -1,3 +1,5 @@
+import "./Tags.css"
+
 const Tags = () => {
     return (
         <div className="card card_tags">

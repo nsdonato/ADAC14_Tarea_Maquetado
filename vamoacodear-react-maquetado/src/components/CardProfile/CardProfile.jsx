@@ -1,12 +1,13 @@
+import "./CardProfile.css"
 
 const CardProfile = () => {
     return (
-        <div className="card  card_about_me">
+        <div className="card card_about_me">
             <img
                 src="/img/avatar_g.jpg"
                 alt="Imágen de la cara de una mujer de perfil"
             />
-            <div className="card_aside_container">
+            <div className="card_container">
                 <h3>My Name</h3>
                 <p>
                     Just me, myself and I, exploring the universe of uknownment. I
